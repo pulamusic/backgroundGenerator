@@ -1,0 +1,22 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "Creates a gradient background for a page, displaying the colors along with their hex numbers as CSS code.",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify main.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulamusic/backgroundGenerator.git"
+  },
+  "author": "Jim Carroll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pulamusic/backgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/pulamusic/backgroundGenerator#readme",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
